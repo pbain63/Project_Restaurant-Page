@@ -1,3 +1,8 @@
+# Add node_modules, dist for this JS project
+ 
+node_modules
+dist
+
 # Logs
 logs
 *.log
