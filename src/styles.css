@@ -5,12 +5,21 @@
   padding: 0;
   margin: 0;
 }
-body {
-  /* background-color: rebeccapurple; */
-}
+
 img {
   max-width: 100%;
 }
-#restaurantName {
-  /* color: red; */
+/* template.html */
+header {
+  /* background-color: rgb(46, 46, 190); */
+
 }
+nav {
+  border: 2px solid red;
+  padding-top: 1rem;
+  background-color: rgb(46, 46, 190);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
