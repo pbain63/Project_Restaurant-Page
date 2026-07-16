@@ -12,13 +12,14 @@ img {
 }
 /* template.html */
 header {
-  /* background-color: rgb(46, 46, 190); */
-
+  background-color: rgb(46, 46, 190);
 }
 nav {
   /* border: 2px solid red; */
   padding-top: 1rem;
-  background-color: rgb(46, 46, 190);
+  /* width: 90%; */
+  /* margin: 0 auto; */
+  /* background-color: rgb(46, 46, 190); */
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -43,6 +44,21 @@ nav button:focus {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-
 }
 
+#restaurantName, #restaurantDescription, 
+#content #hours, 
+#content #location {
+  /* border: 2px solid red; */
+  background-color: gainsboro;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#hoursHeading, #locationHeading {
+  /* border: 2px solid red; */
+  /* background-color: gainsboro; */
+  padding-bottom: 1rem;
+  /* text-align: center; */
+}
