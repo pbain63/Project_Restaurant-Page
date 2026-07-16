@@ -1,3 +1,4 @@
+/* mobile first */
 *,
 *::before,
 *::after {
@@ -33,3 +34,15 @@ nav button:focus {
   background-color: rgb(2, 114, 2);
   color: white;
 }
+
+#content {
+  /* background-image: url(./images/1.\ The\ Classic\ Signature\ Burger.png); */
+}
+#content div {
+  background-color: rgb(149, 173, 201);
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
