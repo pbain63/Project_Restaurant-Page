@@ -44,10 +44,14 @@ nav button:focus {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  /* border: 2px solid red; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-#restaurantName, #restaurantDescription, 
-#content #hours, 
+#restaurantName,
+#restaurantDescription,
+#content #hours,
 #content #location {
   /* border: 2px solid red; */
   background-color: gainsboro;
@@ -56,9 +60,18 @@ nav button:focus {
   margin-bottom: 2rem;
 }
 
-#hoursHeading, #locationHeading {
+#hoursHeading,
+#locationHeading {
   /* border: 2px solid red; */
   /* background-color: gainsboro; */
   padding-bottom: 1rem;
   /* text-align: center; */
+}
+
+/* Menu page */
+
+.menuContainer {
+}
+.menuCard {
+  /* border: 2px solid red; */
 }
