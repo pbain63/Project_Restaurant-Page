@@ -71,7 +71,23 @@ nav button:focus {
 /* Menu page */
 
 .menuContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 .menuCard {
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.itemPrice {
   /* border: 2px solid red; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 900;
+  font-size: x-large;
+}
+.itemDescription {
+  padding-inline: 1.2rem;
 }
