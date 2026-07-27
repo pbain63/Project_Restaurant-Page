@@ -65,22 +65,26 @@ The repository contains two branches:
 
 ### Main Branch (`main`)
 
-├── src/ # Source files
-│ ├── index.js # Entry point
-│ ├── modules/ # JavaScript modules for each tab
-│ ├── styles/ # CSS files
-│ └── assets/ # Images and other static assets
+```text
+├── src/                  # Source files
+│   ├── index.js/         # Entry point
+│   ├── modules/          # JavaScript modules for each tab
+│   ├── styles/           # CSS files
+│   └── assets/           # Images and other static assets
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
 ├── webpack.config.js
 └── README.md
+```
 
 ### Gh-Pages Branch (`gh-pages`)
 
+```
 ├── index.html
-├── main.js # Bundled output
-└── \*.png # Compiled images
+├── main.js               # Bundled output
+└── *.png                 # Compiled images
+```
 
 ---
 
